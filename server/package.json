@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "start": "babel-watch index.js"
+  },
+  "dependencies": {
+    "apollo-server": "^2.1.0",
+    "apollo-server-express": "^2.1.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "graphql": "^14.0.2"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-watch": "^2.0.7"
+  }
+}
