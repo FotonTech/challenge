@@ -1,4 +1,8 @@
 {
+  "name": "server",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
   "scripts": {
     "start": "babel-watch index.js"
   },
