@@ -11,4 +11,4 @@ export const loadAllAuthors = (root, args, context) => {
   ];
 
   return authors;
-}
+};

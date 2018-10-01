@@ -17,4 +17,4 @@ export const loadAllBooks = (root, args, context) => {
   ];
 
   return books;
-}
+};
