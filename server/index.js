@@ -1,4 +1,4 @@
-import { ApolloServer, gql } from 'apollo-server';
+import { ApolloServer } from 'apollo-server';
 import { makeExecutableSchema } from 'graphql-tools';
 
 import * as BookType from './src/modules/book/BookType';
@@ -17,7 +17,7 @@ const SchemaDefinition = `
 const typeDefs = [
   BookType.typeDefs,
   AuthorType.typeDefs,
-]
+];
 
 const resolvers = {
   Query: {
@@ -26,12 +26,10 @@ const resolvers = {
   },
 };
 
-
-
 const schema = makeExecutableSchema({
   typeDefs: [SchemaDefinition, ...typeDefs],
   resolvers
-}) 
+});
 
 const server = new ApolloServer({ schema });
 

@@ -1,0 +1,6 @@
+{
+  "ext": "js",
+  "execMap": {
+    "js": "babel-node"
+  }
+}
